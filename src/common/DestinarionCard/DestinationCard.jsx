@@ -3,11 +3,11 @@ import { Link } from "react-router-dom";
 
 const DestinationCard = ({img, name}) => {
   return (
-    <article className="trips-destination">
-      <div className="trips-destination-img">
+    <article className="destination">
+      <div className="destination-img">
         <img src={img} alt="Destination" />
       </div>
-      <div className="trips-destination-header">
+      <div className="destination-header">
         <Link to={`/trips/${name}`}>{name}</Link>
       </div>
     </article>

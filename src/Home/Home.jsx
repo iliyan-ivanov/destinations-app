@@ -3,6 +3,7 @@ import Header from "../Header/Header";
 import ForUs from "../ForUs/ForUs";
 import plane from "../assets/plane.png";
 import "./Home.css";
+import MainDestinations from "../MainDestinations/MainDestinations";
 
 const Home = () => {
   return (
@@ -25,6 +26,7 @@ const Home = () => {
           </article>
         </section>
         <ForUs />
+        <MainDestinations />
       </main>
     </>
   );

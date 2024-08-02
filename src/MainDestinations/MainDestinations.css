@@ -1,0 +1,9 @@
+.trips {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    background: rgb(200, 204, 205);
+    padding: 20px 80px;
+}
+
