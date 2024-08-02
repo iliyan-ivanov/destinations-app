@@ -1,0 +1,80 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 80px;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
+}
+
+.logo h1 {
+    font-size: 180px;
+    margin: 0;
+    margin-right: 30px;
+    padding: 0;
+}
+
+.logo a {
+    text-decoration: none;
+    color: black;
+}
+
+.logo h2 {
+    font-size: 34px;
+    margin: 0;
+    padding: 0;
+}
+
+.main-nav-content {
+    display: flex;
+    align-items: center;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    padding-top: 30px;
+    flex-direction: row;
+    flex-basis: 50%;
+}
+
+
+.main-nav-content-btns {
+    display: flex;
+    padding: 0;
+    margin-right: 50px;
+} 
+
+.main-nav-content-btns li {
+    list-style: none;
+    margin: 0 10px;
+    border: 1px solid black;
+    border-radius: 28px;
+    padding: 10px 20px;
+}
+
+.main-nav-content-btns li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    width: fit-content;
+    max-width: 180px;
+}
+
+.social-media ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.social-media ul li {
+    list-style: none;
+    padding: 9px;
+}
+
+.social-media-icon {
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+}

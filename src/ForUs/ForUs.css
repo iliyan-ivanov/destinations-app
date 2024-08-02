@@ -1,0 +1,30 @@
+.for-us {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 80px;
+}
+
+.for-us-content {
+    flex-basis: 60%;
+    padding: 0px 60px 0px 0px;
+}
+
+.for-us-content-heading {
+    margin: 0px 0px 30px 0px;
+    text-align: center;
+}
+
+.for-us-content-text {
+    text-align: justify;
+    line-height: 1.5;
+}
+
+.for-us-img {
+    flex-basis: 50%;
+}
+
+.for-us-img img {
+    width: 100%;
+    border-radius: 20px;
+}
