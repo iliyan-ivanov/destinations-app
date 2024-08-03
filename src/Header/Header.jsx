@@ -16,7 +16,7 @@ const Header = () => {
         <article className="main-nav-content">
           <ul className="main-nav-content-btns">
             <li>
-              <Link to="/#for-us">За нас</Link>
+              <Link to="/for-us">За нас</Link>
             </li>
             <li>
               <Link to="/offers">Нашите оферти</Link>

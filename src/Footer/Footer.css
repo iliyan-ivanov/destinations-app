@@ -1,0 +1,31 @@
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 80px;
+    background: rgb(15, 15, 39);
+    align-self: flex-end;
+}
+
+.footer-content {
+    font-size: 18px;
+    color: white;
+    text-align: center;
+}
+
+.footer-icons-section ul {
+    display: flex;
+    padding: 0;
+}
+
+.footer-icons-section li {
+    margin: 30px;
+    list-style: none;
+} 
+
+.social-media-icon-footer {
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+}
