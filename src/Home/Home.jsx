@@ -9,7 +9,7 @@ const Home = () => {
   return (
     <>
       <main className="home-main">
-        <Header />
+        <section className="bg"></section>
         <section className="plane-section">
           <article className="plane-section-content">
             <ul>
