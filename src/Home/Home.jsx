@@ -1,16 +1,16 @@
 import { Link } from "react-router-dom";
 import Header from "../Header/Header";
 import ForUs from "../ForUs/ForUs";
+import MainDestinations from "../MainDestinations/MainDestinations";
 import plane from "../assets/plane.png";
 import "./Home.css";
-import MainDestinations from "../MainDestinations/MainDestinations";
 
 const Home = () => {
   return (
     <>
       <main className="home-main">
-        <section className="bg"></section>
         <section className="plane-section">
+          <Header />
           <article className="plane-section-content">
             <ul>
               <li className="plane-section-btn">
@@ -20,9 +20,9 @@ const Home = () => {
                 <Link to="#">Нашите оферти</Link>
               </li>
             </ul>
-          </article>
-          <article className="plane-section-img">
-            <img src={plane} alt="plane" />
+            <div className="plane-section-img">
+              <img src={plane} alt="plane" />
+            </div>
           </article>
         </section>
         <ForUs />
