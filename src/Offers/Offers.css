@@ -1,0 +1,19 @@
+.offers-main {
+    background-image: linear-gradient(orange, rgb(161, 52, 52));
+}
+
+.offers-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1600px;
+    margin: auto;
+    border-radius: 30px;
+}
+
+.offers-list .destination-img {
+    width: 650px;
+    height: 300px;
+    box-shadow: 10px 15px 5px black;
+}
