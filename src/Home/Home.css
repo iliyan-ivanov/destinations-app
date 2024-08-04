@@ -1,18 +1,17 @@
-.bg {
-    background: url('../assets/clouds.jpg');
-    background-size: cover;
-    width: 100%;
-    height: 700px;
-    top: 0px;
-    position: absolute;
-    z-index: -1;
-}
 
 .plane-section {
     display: flex;
+    flex-direction: column;
+    background: url('../assets/clouds.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 750px;
+}
+
+.plane-section-content {
+    display: flex;
     padding: 20px 80px;
     justify-content: space-between;
-    
 }
 
 .plane-section-content ul {
