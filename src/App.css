@@ -35,7 +35,6 @@
 }
 
 @media all and (max-width: 1306px) {
-
   .main-nav-content {
     flex-direction: row;
     align-content: flex-start;
@@ -56,7 +55,6 @@
   }
 
   .main-nav-content-btns li a {
-
     width: 180px;
   }
 
@@ -95,29 +93,25 @@
     padding: 0;
   }
 
-  .destination {
+  .trips .destination {
     padding: 20px;
   }
 
-  .destination-img {
+  .trips .destination-img {
     height: 350px;
     width: 1000px;
   }
+
+  
 }
 
 @media all and (max-width: 1180px) {
-
   .offers-list .destination-img {
     width: 900px;
   }
-
 }
 
 @media all and (max-width: 1080px) {
-  .bg {
-    height: 1170px;
-  }
-
   .nav {
     flex-direction: column;
     align-items: center;
@@ -128,10 +122,12 @@
     margin-right: 0;
   }
 
-  .main-nav-content {
-    flex-direction: column;
-    align-items: center;
-    margin: 30px 0px 80px 0px;
+  .offer-details-main .nav {
+    padding: 0px 30px;
+  }
+
+  .offer-details-main .main-nav-content {
+    justify-content: center;
   }
 
   .main-nav-content-btns {
@@ -159,7 +155,7 @@
     margin-bottom: 0;
   }
 
-  .destination-img {
+  .trips .destination-img {
     height: 250px;
     width: 700px;
   }
@@ -176,6 +172,14 @@
     width: 700px;
   }
 
+  .offer-main-content .destination-img {
+    height: 150px;
+  }
+
+  .offer-main-content .destination-header a {
+    font-size: 30px;
+  }
+
   footer {
     align-items: center;
     flex-direction: column;
@@ -184,10 +188,6 @@
 }
 
 @media all and (max-width: 800px) {
-  .bg {
-    height: 1250px;
-  }
-
   .nav {
     padding-bottom: 0;
   }
@@ -235,13 +235,21 @@
     width: 400px;
   }
 
-  .destination-img {
+  .trips .destination-img {
     height: 250px;
     width: 500px;
   }
 
   .offers-list .destination-img {
     width: 500px;
+  }
+
+  .offer-main-content .destination-img {
+    height: 100px;
+  }
+
+  .offer-main-content .destination-header a {
+    font-size: 20px;
   }
 
   .footer-content {
@@ -254,10 +262,6 @@
 }
 
 @media all and (max-width: 560px) {
-  .bg {
-    height: 1100px;
-  }
-
   .logo h1 {
     font-size: 80px;
   }
@@ -288,7 +292,7 @@
     width: 90%;
   }
 
-  .destination-img {
+  .trips .destination-img {
     height: 250px;
     width: 300px;
   }
@@ -296,14 +300,18 @@
   .offers-list .destination-img {
     width: 320px;
   }
+
+  .offer-main-content .aside-section {
+    display: none;
+  }
+
+  .offer-city-heading {
+    text-align: center;
+  }
 }
 
 
 @media all and (max-width: 390px) {
-  .bg {
-    height: 900px;
-  }
-
   .for-us {
     margin: 0;
   }
@@ -336,7 +344,7 @@
     width: 200px;
   }
 
-  .destination-img {
+  .trips .destination-img {
     height: 250px;
     width: 250px;
   }
