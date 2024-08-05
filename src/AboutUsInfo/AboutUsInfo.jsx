@@ -1,12 +1,12 @@
-import './ForUs.css';
+import './AboutUsInfo.css';
 import traveler from "../assets/traveler.jpg";
 
 const ForUs = () => {
   return (
-    <section className="for-us" id="for-us">
-      <article className="for-us-content">
-        <h2 className="for-us-content-heading">За нас</h2>
-        <p className="for-us-content-text">
+    <section className="about-us">
+      <article className="about-us-content">
+        <h2 className="about-us-content-heading">За нас</h2>
+        <p className="about-us-content-text">
           Ние сме регистриран туроператор и една от най-големите агенции за
           пътуване в България. Имаме дългогодишен опит в предлагането на
           самолетни билети, хотелско настаняване, туристически пътувания,
@@ -14,7 +14,7 @@ const ForUs = () => {
           предпочитан избор е гарантираното качество и индивидуалното отношение
           към всеки клиент.
         </p>
-        <p className="for-us-content-text">
+        <p className="about-us-content-text">
           Светът е на една ръка разстояние, красотата му – на един полет към
           мечтите. Можете да сбъднете тази мечта с нас. Ние предлагаме удобство,
           разумни цени, атрактивни идеи за света и маршрутите на щастието. За
@@ -23,12 +23,12 @@ const ForUs = () => {
           невероятни земи, не се пазят в магнитчета - те остават в душите ни,
           когато видим тези непознати светове с очите и сърцето си.
         </p>
-        <p className="for-us-content-text">
+        <p className="about-us-content-text">
           Нека заедно покорим и обикнем света, обикаляйки земята на крилете на
           сбъднати мечти и желания.
         </p>
       </article>
-      <article className="for-us-img">
+      <article className="about-us-img">
         <img src={traveler} alt="Fliyng" />
       </article>
     </section>
