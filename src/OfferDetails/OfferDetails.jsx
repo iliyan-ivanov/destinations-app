@@ -11,6 +11,7 @@ const OfferDetails = () => {
 
   useEffect(() => {
    setCityDetails({...cities.filter((x) => x.name == id)[0]});
+   window.scrollTo(0,0);
   }, [ id ]);
 
   return (
@@ -23,7 +24,7 @@ const OfferDetails = () => {
         <article className="offer-main-content">
           <section className="offer-description-section">
             <div className="offer-description">
-              <h3>{cityDetails.name}</h3>
+              <h3 className="offer-city-heading">{cityDetails.name}</h3>
               <p>
                 Модната столица на света - Милано - ви очаква, за да ви очарова
                 с шикозните си кафенета, коктейлите с Кампари, изкуството и
@@ -104,7 +105,7 @@ const OfferDetails = () => {
               </p>
             </div>
           </section>
-          <Aside />
+          <Aside className="aside" />
         </article>
       </section>
     </main>
