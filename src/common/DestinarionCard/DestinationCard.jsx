@@ -8,7 +8,7 @@ const DestinationCard = ({img, name}) => {
         <img src={img} alt="Destination" />
       </div>
       <div className="destination-header">
-        <Link to={`/trips/${name}`}>{name}</Link>
+        <Link to={`/offers/${name}/details`}>{name}</Link>
       </div>
     </article>
   );
