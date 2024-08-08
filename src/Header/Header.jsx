@@ -28,17 +28,17 @@ const Header = () => {
           <div className="social-media">
             <ul>
               <li>
-                <Link to="#" className="social-media-icon">
+                <Link to="https://www.instagram.com/" className="social-media-icon">
                   <FaIcons.FaInstagram />
                 </Link>
               </li>
               <li>
-                <Link to="#" className="social-media-icon">
+                <Link to="https://x.com/" className="social-media-icon">
                   <FaIcons.FaTwitter />
                 </Link>
               </li>
               <li>
-                <Link to="#" className="social-media-icon">
+                <Link to="https://www.facebook.com/" className="social-media-icon">
                   <FaIcons.FaFacebook />
                 </Link>
               </li>
