@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import Header from "../Header/Header";
-import AboutUsInfo from "../AboutUsInfo/AboutUsInfo";
+import AboutUsInfo from "../common/AboutUsInfo/AboutUsInfo";
 import MainDestinations from "../MainDestinations/MainDestinations";
 import plane from "../assets/plane.png";
 import "./Home.css";

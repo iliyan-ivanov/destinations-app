@@ -1,5 +1,5 @@
 import Header from "../Header/Header";
-import AboutUsInfo from "../AboutUsInfo/AboutUsInfo"
+import AboutUsInfo from "../common/AboutUsInfo/AboutUsInfo";
 import "./AboutUsPage.css";
 
 const AboutUsPage = ({img, name}) => {

@@ -22,7 +22,7 @@ const Header = () => {
               <Link to="/offers">Нашите оферти</Link>
             </li>
             <li>
-              <Link to="#">Контакти</Link>
+              <Link to="/contact-us">Контакти</Link>
             </li>
           </ul>
           <div className="social-media">
