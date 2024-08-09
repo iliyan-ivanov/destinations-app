@@ -11,17 +11,17 @@ const Footer = () => {
       <section className="footer-icons-section">
         <ul>
           <li>
-            <Link to="https://www.instagram.com/" className="social-media-icon">
+            <Link to="https://www.instagram.com/" className="social-media-icon-footer">
               <FaIcons.FaInstagram />
             </Link>
           </li>
           <li>
-            <Link to="https://x.com/" className="social-media-icon">
+            <Link to="https://x.com/" className="social-media-icon-footer">
               <FaIcons.FaTwitter />
             </Link>
           </li>
           <li>
-            <Link to="https://www.facebook.com/" className="social-media-icon">
+            <Link to="https://www.facebook.com/" className="social-media-icon-footer">
               <FaIcons.FaFacebook />
             </Link>
           </li>
