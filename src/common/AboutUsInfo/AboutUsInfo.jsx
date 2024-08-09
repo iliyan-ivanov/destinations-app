@@ -1,5 +1,5 @@
 import './AboutUsInfo.css';
-import traveler from "../assets/traveler.jpg";
+import traveler from "../../assets/traveler.jpg";
 
 const ForUs = () => {
   return (
