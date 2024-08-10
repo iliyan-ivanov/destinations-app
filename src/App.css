@@ -109,6 +109,20 @@
   .offers-list .destination-img {
     width: 900px;
   }
+
+  .contact-us-location {
+    justify-content: space-between;
+  }
+
+  .google-maps {
+    margin-left: 0;
+  }
+
+  .contact-us-form-article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 @media all and (max-width: 1080px) {
@@ -326,7 +340,7 @@
 
 
 @media all and (max-width: 390px) {
- 
+
 
   main {
     width: 390px;

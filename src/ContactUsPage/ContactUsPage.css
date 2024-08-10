@@ -4,20 +4,39 @@
     flex-direction: column;
 }
 
-.contact-us-heading {
+.contact-us-section {
+    margin: 30px 200px;
     color: white;
     text-shadow: 1px 1px 2px black;
+}
+
+.contact-us-heading {
     text-align: center;
     margin-bottom: 50px;
 }
 
+.contact-us-location {
+    display: flex;
+    margin: 100px 0px;
+}
+
+.contact-us-location-info h3 {
+    margin: 0;
+}
+
+.google-maps {
+    border-radius: 20px;
+    box-shadow: 0px 20px 30px 10px black;
+    margin-left: 350px;
+}
+
 .contact-us-form-article {
+    padding: 50px 0px;
+}
+
+.contact-us-form-div {
     display: flex;
     flex-direction: row;
-    color: white;
-    text-shadow: 1px 1px 2px black;
-    justify-content: space-between;
-    padding: 0px 120px;
 }
 
 .contact-us-form {
@@ -49,21 +68,4 @@
     width: 200px;
     margin-top: 20px;
     margin-right: 55px;
-}
-
-.contact-us-location {
-    display: flex;
-}
-
-.contact-us-location article {
-    margin: 90px;
-}
-
-.contact-us-location-info h3 {
-    margin: 0;
-}
-
-.google-maps {
-    border-radius: 20px;
-    box-shadow: 0px 20px 30px 10px black;
 }
