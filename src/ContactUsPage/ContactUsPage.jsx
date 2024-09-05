@@ -2,6 +2,11 @@ import Header from "../Header/Header";
 import "./ContactUsPage.css";
 
 const ContactUsPage = () => {
+  const onSendEmail = (e) => {
+    e.preventDefault(e);
+    // Insert sending email logic
+  }
+
   return (
     <main className="contact-us-page">
       <Header />
@@ -35,7 +40,7 @@ const ContactUsPage = () => {
           <h4 className="contact-us-description">Свържете се с нас, за да получите допълнителна информация или за да отправите Ваше питане.</h4>
           <h4>Изпращане на е-мейл. Всички полета отбелязани със звезда (*) са задължителни.</h4>
           <div className="contact-us-form-div">
-            <form className="contact-us-form">
+            <form className="contact-us-form" onSubmit={onSendEmail}>
               <div>
                 <label htmlFor="name">Име *</label>
                 <input type="text" id="name" name="name" />
